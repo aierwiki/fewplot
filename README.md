@@ -1,2 +1,2 @@
 # fewplot
-a easy plot way with few arguments
+a easy way to plot with few arguments
