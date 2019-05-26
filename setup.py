@@ -2,7 +2,7 @@
 # @Date:   2019-05-26T11:59:03+08:00
 # @Email:  tang-yu-bin@qq.com
 # @Last modified by:   tangyubin
-# @Last modified time: 2019-05-26T13:26:27+08:00
+# @Last modified time: 2019-05-26T16:26:21+08:00
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tidyplot",
-    version="0.0.2",
+    version="0.0.3",
     author="Tang Yubin",
     author_email="tang-yu-bin@qq.com",
     description="a plot tool",
