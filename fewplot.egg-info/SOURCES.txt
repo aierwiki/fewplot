@@ -1,8 +1,0 @@
-README.md
-setup.py
-fewplot/__init__.py
-fewplot/model_selection.py
-fewplot.egg-info/PKG-INFO
-fewplot.egg-info/SOURCES.txt
-fewplot.egg-info/dependency_links.txt
-fewplot.egg-info/top_level.txt
