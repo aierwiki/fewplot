@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tidyplot",
-    version="0.0.3",
+    version="0.0.4",
     author="Tang Yubin",
     author_email="tang-yu-bin@qq.com",
     description="a plot tool",

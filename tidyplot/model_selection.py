@@ -15,6 +15,7 @@ class ParamError(Exception):
 
 def plot_learning_curve(x, y, title = "Learning Curve",
                       xlabel = "Epochs", ylabel="Loss",
+                      ylim = None,
                       labels = None, colors = None):
     """
     Generate a simple plot of learning curve.
@@ -40,5 +41,7 @@ def plot_learning_curve(x, y, title = "Learning Curve",
             plt.plot(x, yy, 'o-', color=color, label=label)
     else:
         plt.plot(x, y, 'o-', color='r', label=ylabel)
+    if ylim is not None:
+        plt.ylim(ylim)
     plt.legend(loc='best')
     plt.show()
